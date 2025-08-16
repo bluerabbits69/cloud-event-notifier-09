@@ -85,6 +85,16 @@ npm i @azure/functions @azure/identity @microsoft/microsoft-graph-client
 - エンドポイントはデプロイした関数を選択する
 
 ---
+## 通知例
+```
+🎉新しいユーザーが作成されました
+• 名前: XXXX
+• UPN: XXXX@XXXX.com
+• メール: XXXX@XXXX.com
+• 作成: 2025-XX-XXXXXXXX
+```
+
+---
 ## ミスったこと・注意点
 - Microsoft Graph API サブスクリプションを使用した場合、Event Grid Schemaを使用したイベントサブスクリプションは作成できない（仕様らしい）
 - 関数がEvent Gridから受け取るEventはCloudEventだが、
